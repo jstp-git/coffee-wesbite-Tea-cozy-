@@ -1,0 +1,127 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: seashell;
+    opacity: 0,9;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    
+   
+}
+
+#header {
+    height: 69px;
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Distributes space between the items */
+    position:fixed;
+    background-color: black;
+    width:100%;
+    border: bottom 1px,solid,seashell;
+}
+
+#logo {
+    height: 50px;
+}
+
+h2 {
+ 
+    margin: 0; /* Removes any default margin */
+    padding-left: 20px;
+    text-decoration: underline;
+    padding-right: 10px;
+}
+
+#headerDiv {
+    display: flex;
+    align-items: center; 
+    padding-left: 0; }
+
+/* Optionally, set specific width for the divs inside #headerDiv */
+#headerDiv > div {
+    margin-left: 20px; /* Add margin if you want space between items in the #headerDiv */
+}
+
+
+
+#maindiv{
+
+background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*88n84h*_gcl_au*MjAxNDA2NjU4OS4xNzE1ODAyODkx*_ga*NTIwNDAxOTU2MC4xNjk4MTU2NzIx*_ga_3LRZM6TM9L*MTcyMzQ2MTE4Mi4xNDcuMC4xNzIzNDYxMTgyLjAuMC4w");
+height:700px;
+background-size: cover;
+justify-content: center;
+display: flex;
+align-items: center;
+width: 1200px;
+margin-left: 45px;
+margin-right: 25px;}
+
+#missonDiv{
+    background-color:black;
+    width: 1200px;
+    margin-bottom: 0px;
+  
+}
+h4{
+    margin-bottom: 0px;
+}
+
+#galleryDiv{
+    width: 1000px;
+    margin-left: 150px;
+margin-right: 25px;
+}
+
+#pictures{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+#locationDiv{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1458nnn*_gcl_au*MjAxNDA2NjU4OS4xNzE1ODAyODkx*_ga*NTIwNDAxOTU2MC4xNjk4MTU2NzIx*_ga_3LRZM6TM9L*MTcyMzQ2MTE4Mi4xNDcuMS4xNzIzNDYyNTI3LjAuMC4w");
+    height: 500px;
+    width: 100%;
+ align-items: center;
+ margin-right:40px ;
+ background-size: cover;
+}
+#locationText{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+#downtown{
+    background-color: black;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+#EastBayside{
+    background-color: black;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+#Oakdale{
+    background-color: black;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 15px;
+    opacity: 1;
+    margin-right: 40px;
+}
+p{
+    margin: 40px;
+}
+#copyright{
+    text-align: left;
+}
